@@ -1,0 +1,68 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+
+body {
+  background-image: url("images/fire.png");
+  background-color: #cccccc;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+
+.background{
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	width: 100%;
+	background-color: #cccccc;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.container{
+	flex-grow: 1;
+	flex-direction: column;
+	justify-content: stretch;
+	display: flex;
+	align-item: center;
+	justify-content: center;
+}
+
+/* .background-image{
+	background-image: url("images/fire.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+} */
+
+
+.btn{
+	align-self: center;
+	justify-self: center;
+	margin: 0 auto;
+	background-color: #30F8A4;
+	border: 1px solid #30F8A4;
+	border-radius: 15px;
+	padding: 10px;
+	color: #3628D8;
+	text-align: center;
+	font-size: 1.5rem;
+	fon-family: 'Roboto', sans-serif;
+	fon-weight: bolder;
+	text-decoration: none;
+}
+
+.btn:hover{
+	background-color: #38f0db;
+	border: 1px solid #38f0db;
+	border-radius: 15px;
+	padding: 10px;
+	color: #675cdb;
+	text-decoration: none;
+	box-shadow: 0px 0px 5px #30F8A4;
+}
