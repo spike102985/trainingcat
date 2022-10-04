@@ -66,3 +66,7 @@ body {
 	text-decoration: none;
 	box-shadow: 0px 0px 5px #30F8A4;
 }
+
+.audio{
+	cursor: pointer;
+}

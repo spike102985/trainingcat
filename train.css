@@ -1,31 +1,85 @@
+*{
+	box-sizing: border-box;
+}
+
 html, body {
   height: 100%;
   width: 100%;
 }
 
-.background{
+
+body{
+	background: #98B4D4;
+	
+}
+
+
+.container{
 	display: flex;
 	flex-direction: column;
 	height: 100%;
 	width: 100%;
-	background-color: #97BCBE;
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-	justify-content: stretch;
-}
-
-.container{
-	flex-grow: 1;
-	display:flex;
-	flex-direction: column;
-	justify-content: center;
 	align-items: center;
-	padding: 10px;
+	justify-content: center;
 }
 
-/* .video-train{
-	align-self: center;
-	height: 100%;
-	widht: 100%;
-} */
+.mission{
+	background-color: #317dd3;
+	width: 50%;
+	padding: 2em;
+	
+	border-radius: 10px;
+	margin: 5px;
+	cursor: pointer;
+	color: #fff;
+	font-size: 1.2em;
+/* 	text-align: center; */
+	
+	transition: all 0.2s;
+	
+	&:hover{
+		background-color: #317dd3;
+	}
+}
+
+.mission:hover{
+	background-color: #5d9ce5;
+	box-shadow: 0px 0px 5px rgba(0,0,0,0.2);
+	border-radius: 10px;
+	margin: 5px;
+	cursor: pointer;
+}
+
+.hide {
+	display: none;
+}
+
+.missionList{
+	background-color: #c7d0db;
+	border-radius: 20px;
+	padding: 1em;
+}
+
+.missionList .missionHeader{
+/* 	background-color: #195eb3; */
+	border-bottom: 1px solid #0f0f0f;
+
+	display: flex;
+	justify-content: space-between;
+}
+
+.missionTitle{
+	margin: 0;
+	padding: 0;
+	font-size: 1.5em;
+/* 	color: #fff; */
+}
+
+.quit{
+	margin-left: 10px;
+	align-self: flex-start;
+	cursor: pointer;
+	background-color: #f2f2f2;
+	padding: 3px;
+}
+

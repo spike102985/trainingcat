@@ -1,3 +1,8 @@
+
+let mySound = new Audio('sound/loading.mp3')
+mySound.play()
+
+
 window.onload = function () {
   var pos = 0;
 
